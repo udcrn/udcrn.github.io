@@ -1,0 +1,47 @@
+.jumbotrom {
+    width: 100%;
+    background-color: $header-color;
+}
+
+.jumbotrom-itens {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbotrom-icon {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        padding: 8px;
+        width: 50%;
+        max-height: 200px;
+    }
+}
+
+.jumbotrom-text {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        width: 80%;
+        font-size: 28px;
+        font-weight: 300;
+        padding: 8px;
+        text-align: center;
+        color: $header-text-color;
+    }
+    h2 {
+        color: $header-text-color;
+        text-align: center;
+    }
+}
+@media (min-width: 900px) {
+    .jumbotrom-text {
+        width: 70%;
+    }
+}
