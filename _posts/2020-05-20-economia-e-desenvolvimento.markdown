@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Big Ideas IV - Economia e Desenvolvimento"
+title: "Big Ideas - Economia e Desenvolvimento"
 date: 2020-05-20 22:43:03 -0300
 author: Luccas Mateus de Medeiros Gomes
 categories: traducoes
