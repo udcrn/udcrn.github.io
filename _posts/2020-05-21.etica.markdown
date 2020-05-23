@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "Big Ideas - Ética"
-date: 2020-05-22 22:43:03 -0300
+date: 2020-05-21 22:43:03 -0300
 author: Antonio Murilo 
 categories: traducoes
 tags: etica principios
 ---
-
-
-**BIG IDEAS I: ETHICS**
 
 Até então, nós te ensinamos as habilidades fundamentais que você precisará para um debate de medida. Na Lição 01, nós te ensinamos como identificar um problema e apresentar uma solução. Na Lição 02, nós te ensinamos como criar argumentos que apoiem essa solução
 
