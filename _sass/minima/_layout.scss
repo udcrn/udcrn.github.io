@@ -247,10 +247,11 @@ a:visited {
 }
 
 .post-title {
-  font-size: clamp(20px, 10vw, 35px);
+  font-size: clamp(1.5rem, 10vw, 35px);
   letter-spacing: -1px;
   line-height: 1;
   text-align: center;
+  font-weight: 900;
 }
 
 .post-content {
