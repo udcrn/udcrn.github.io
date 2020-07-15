@@ -7,8 +7,6 @@ categories: traducoes
 tags: bp guia 
 ---
 
-**COMO BREAKAR EM UM WUDC - UM GUIA DE 8 ETAPAS**
-
 Este guia é para quem deseja realizar o seu potencial como debatedor e ter sucesso em um torneio internacional. Muitos novos debatedores experimentam o sucesso inicial, se apaixonam pela atividade, mas depois passam a ter dificuldades.
 
 Você se sai bem em alguns torneios, mal em outros, e isso começa a te incomodar. Você começa a duvidar de sua capacidade intelectual e isso pode até afetar sua auto-estima. Talvez você vá a um torneio internacional como o WUDC ou o EUDC e não breake. É desesperadamente decepcionante.
