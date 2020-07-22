@@ -4,10 +4,16 @@
   {%- include head.html -%}
 
   <body>
-    {%- include header.html -%}
+    {% unless page.url contains '/opennatal3' %}
+      {%- include header.html -%}
+    {% endunless %}
 
     {% if page.url == "/" %}
       {%- include banner.html -%}
+    {% endif %}
+
+    {% if page.url contains "/opennatal3" %}
+      {%- include banner_open.html -%}
     {% endif %}
 
     <main class="page-content" aria-label="Content">

@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+</div>
+  <div class="post-content">
+    <p>Texto Genérico sobre o campeonato falando como é tudo lindo maravilhoso
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+      qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+      sed quia non numquam eius modi tempora incidunt ut labore et dolore
+      magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+      nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+      aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+      qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+      qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+      <div class="container" x-data="{ tab: 'tab1' }">
+            </br>
+            <div class="flex justify-center">
+              <h2 class="text-2xl font-bold">Inscrições</h2>
+            </div>
+            <ul class="flex border-b mt-6" >
+                <li class="-mb-px mr-1">
+                    <a
+                        class="inline-block rounded-t py-2 px-4 font-semibold hover:text-green-800"
+                        :class="{ 'bg-white text-green-700 border-l border-t border-r' : tab === 'tab1' }"
+                        href="#"
+                        @click.prevent="tab = 'tab1'">Inscrição Tipo 1</a>
+                </li>
+                <li class="-mb-px mr-1">
+                    <a
+                        class="inline-block py-2 px-4 text-green-500 hover:text-green-800 font-semibold"
+                        :class="{ 'bg-white text-green-700 border-l border-t border-r' : tab === 'tab2' }"
+                        href="#"
+                        @click.prevent="tab = 'tab2'">Inscrição Tipo 2</a
+                    >
+                </li>
+                <li class="-mb-px mr-1">
+                    <a
+                        class="inline-block py-2 px-4 text-green-500 hover:text-green-800 font-semibold"
+                        :class="{ 'bg-white text-green-700 border-l border-t border-r' : tab === 'tab3' }"
+                        href="#" @click.prevent="tab = 'tab3'">Inscrição Tipo 3</a
+                    >
+                </li>
+            </ul>
+            <div class="content bg-white px-4 py-4 border-l border-r border-b pt-4">
+                <div x-show="tab === 'tab1'">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_TZsJJ5r2sQVMOihMY7-6jtZ4fNiEBbd-_HeDK04_7PUtNA/viewform?embedded=true"
+                            width="740" height="1600" frameborder="0">
+                      Carregando…
+                    </iframe>
+                    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-700 rounded w-full">
+                      Botão finge que é do Pagseguro
+                    </button>
+                </div>
+                <div x-show="tab === 'tab2'">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezXl9dMzAnHFO9FYLO-zcfIyvff-LPWHbVMTI1Zyy56D3sMw/viewform?embedded=true"
+                            width="740" height="1600" frameborder="0" >Carregando…
+                    </iframe>
+                    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-700 rounded w-full">
+                      Botão finge que é do Pagseguro
+                    </button>
+                </div>
+                <div x-show="tab === 'tab3'">
+                  <p>O Open Natal é top finge que tem alguma coisa aqui</p>
+                </div>
+            </div>
+      </div>
+  </div>

@@ -163,6 +163,8 @@ a:visited { color: #828282; }
 
 .jumbotrom { width: 100%; background-color: #074217; }
 
+.jumbotrom_open { width: 100%; background-image: url("/assets/UDCOpenNatal.png"); background-color: #074217; background-size: cover; }
+
 .jumbotrom-itens { padding: 20px; display: flex; flex-direction: column; align-items: center; }
 
 .jumbotrom-icon { width: 90%; display: flex; flex-direction: column; align-items: center; }

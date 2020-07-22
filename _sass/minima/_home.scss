@@ -3,6 +3,13 @@
     background-color: $header-color;
 }
 
+.jumbotrom_open {
+    width: 100%;
+    background-image: url("/assets/UDCOpenNatal.png");
+    background-color: $header-color;
+    background-size: cover;
+}
+
 .jumbotrom-itens {
     padding: 20px;
     display: flex;
