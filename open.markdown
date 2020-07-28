@@ -1,5 +1,5 @@
 ---
 layout: open 
-title: 
+title: Open Natal 3 
 permalink: /opennatal3/
 ---
