@@ -179,6 +179,8 @@ a:visited { color: #828282; }
 
 @media (min-width: 900px) { .jumbotrom-text { width: 70%; } }
 
+.bebas-neue { font-family: BebasNeueRegular; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 
