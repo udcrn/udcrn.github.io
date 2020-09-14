@@ -12,15 +12,14 @@
       {%- include banner.html -%}
     {% endif %}
 
+    {%- include banner_open.html -%}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
-    {% unless page.url contains '/opennatal3' %}
       {%- include footer.html -%}
-    {% endunless %}
 
   </body>
 

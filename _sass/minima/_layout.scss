@@ -30,7 +30,6 @@
 
 
 .site-nav {
-  float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -121,7 +120,11 @@
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0;
+  margin-left: 5;
+}
+
+.social-media-list li a span {
+  margin-left: 10px;
 }
 
 .footer-col-wrapper {

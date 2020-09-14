@@ -84,7 +84,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-title, .site-title:visited { color: #fdfdfd; }
 
-.site-nav { float: right; line-height: 67.5px; }
+.site-nav { line-height: 67.5px; }
 
 .site-nav .nav-trigger { display: none; }
 
@@ -101,7 +101,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-heading { font-size: 22.5px; margin-bottom: 15px; }
 
-.contact-list, .social-media-list { list-style: none; margin-left: 0; }
+.contact-list, .social-media-list { list-style: none; margin-left: 5; }
+
+.social-media-list li a span { margin-left: 10px; }
 
 .footer-col-wrapper { font-size: 18.75px; color: #828282; margin-left: -15px; }
 
