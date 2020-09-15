@@ -12,7 +12,9 @@
       {%- include banner.html -%}
     {% endif %}
 
+    {% if page.url contains "/opennatal3" %}
     {%- include banner_open.html -%}
+    {% endif %}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
